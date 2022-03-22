@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:11
 
 COPY target/hello-jenkinspipelines-1.0-SNAPSHOT.jar /opt/application/hello-jenkinspipelines.jar
 
